@@ -89,6 +89,12 @@
             <artifactId>mariadb-java-client</artifactId>
         </dependency>
 
+        <!--        <dependency>-->
+        <!--            <groupId>mysql</groupId>-->
+        <!--            <artifactId>mysql-connector-java</artifactId>-->
+        <!--            <version>5.1.29</version>-->
+        <!--        </dependency>-->
+
         <dependency>
             <groupId>io.github.zqrferrari</groupId>
             <artifactId>logi-elasticsearch-client</artifactId>
