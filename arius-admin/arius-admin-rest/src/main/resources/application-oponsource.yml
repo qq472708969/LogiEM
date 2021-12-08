@@ -71,7 +71,7 @@ es.password: azAWiJhxkho33ac
 scroll.timeout: 60s
 
 # 更新ES数据集群名称
-es.update.cluster.name: logi-em-matedata-cluster
+es.update.cluster.name: e1
 es.client.cluster.port:
 
 #es连接线程数

@@ -35,7 +35,7 @@ import static com.didichuxing.datachannel.arius.admin.remote.InterfaceConstant.*
  * @date 2019/5/24
  */
 @Service("odinRemoteServiceImpl")
-@ConditionalOnProperty(value = "monitor.odin.enable", havingValue = "true")
+//@ConditionalOnProperty(value = "monitor.odin.enable", havingValue = "true")
 @NoArgsConstructor
 public class OdinRemoteServiceImpl implements RemoteMonitorService {
 
