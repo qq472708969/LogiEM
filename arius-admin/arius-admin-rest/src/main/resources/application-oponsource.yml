@@ -72,7 +72,7 @@ scroll.timeout: 60s
 
 # 更新ES数据集群名称
 es.update.cluster.name: e1
-es.client.cluster.port:
+es.client.cluster.port: 9200
 
 #es连接线程数
 es.client.io.thread.count: 4
