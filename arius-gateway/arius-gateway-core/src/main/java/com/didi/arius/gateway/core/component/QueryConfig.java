@@ -1,6 +1,5 @@
 package com.didi.arius.gateway.core.component;
 
-import com.didi.arius.gateway.common.metrics.log.DslMetricHelper;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -97,7 +96,7 @@ public class QueryConfig {
 
 		tcpSemaphore = new Semaphore(tcpQueryLimit);
 
-		DslMetricHelper.init(dslMapSize,threadSize, queueSize);
+//		DslMetricHelper.init(dslMapSize,threadSize, queueSize);
 
 	}
 }

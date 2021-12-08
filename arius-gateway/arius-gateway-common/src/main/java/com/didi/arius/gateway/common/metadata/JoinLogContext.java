@@ -1,7 +1,6 @@
 package com.didi.arius.gateway.common.metadata;
 
 import com.alibaba.fastjson.JSON;
-import com.didi.arius.gateway.common.metrics.log.DslMetricHelper;
 import com.didi.arius.gateway.common.utils.Convert;
 import lombok.Data;
 import org.elasticsearch.rest.RestRequest;
@@ -81,7 +80,7 @@ public class JoinLogContext {
             return KIBANA_LOG;
         }
         String res = JSON.toJSONString(this);
-        DslMetricHelper.putDslLog(res);
+//        DslMetricHelper.putDslLog(res);
         return res;
     }
 }
