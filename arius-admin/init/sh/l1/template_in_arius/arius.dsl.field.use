@@ -1,0 +1,22 @@
+{
+  "expression": "arius.dsl.field.use",
+  "dateFormat": "",
+  "dataCenter": "cn",
+  "dataType": 0,
+  "dateField": "logTime",
+  "expireTime": "-1",
+  "physicalInfos": [
+    {
+      "cluster": "e1",
+      "rack": "",
+      "resourceId": 310,
+      "role": 1,
+      "shard": "4"
+    }
+  ],
+  "quota": 30,
+  "appId": 1,
+  "responsible": "admin",
+  "name": "arius.dsl.field.use",
+  "desc": "字段使用索引"
+}
