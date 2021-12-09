@@ -63,8 +63,8 @@ admin:
       op: 20
 
 # gateway相关配置
-es.gateway.url:
-es.gateway.port:
+es.gateway.url: 127.0.0.1
+es.gateway.port: 8200
 es.appid: 1
 es.password: azAWiJhxkho33ac
 
